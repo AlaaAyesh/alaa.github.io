@@ -1,5 +1,5 @@
 ---
-title: E-Commerce Website 
+title: Shopping Website 
 classes: wide
 header:
   teaser: https://github.com/user-attachments/assets/c0b3e701-756a-42b7-8141-3c5e5dac3984
