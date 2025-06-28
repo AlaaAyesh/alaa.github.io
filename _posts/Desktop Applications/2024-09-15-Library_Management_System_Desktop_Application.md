@@ -10,88 +10,188 @@ toc: true
 ---
 
 
-> # Lab_Master
+# Stationery Store Management System
 
-
-**Lab_Master** is a desktop application designed to streamline the management of IT Department labs. It provides detailed insights into labs, computers, software, and students while offering group and student distribution automation.
+**Stationery Store Management System** is a professional desktop application built using Windows Forms (.NET 8.0) for streamlined management of stationery shops. It offers comprehensive modules for handling products, sales, inventory, user roles, and reporting—featuring a modern right-to-left (Arabic) interface.
 
 ---
 
 ## Features and Functionalities
 
-### Lab Management
-1. **Lab Listings:**
-   - View a comprehensive list of all labs in the IT Department.
-   - Visualize each lab with a detailed **sketch**.
-
-2. **Lab Efficiency Analysis:**
-   - Assess lab statuses: **exists**, **outside**, **working well**, **has a problem**, and calculate efficiency percentage.
-   - Generate efficiency reports for individual labs or all labs.
+### Authentication & Roles
+1. **Secure Login System:**
+   - Role-based access for **Admins** and **Users**.
+   - Admin users manage system configurations and user accounts.
+   - Regular users perform sales and inventory tasks.
 
 ---
 
-### Computer Management
-1. **Computer Details:**
-   - List all computers in a lab with the following attributes:
-     - **Hardware Details:** `caseSerialNumber`, `screenSerialNumber`, `computerName`, `processor`, `RAM`, `storage`, `graphicsCard`, `operatingSystem`.
-     - **Network Details:** `MACAddress`, `connectionToNetworkStatus`.
-     - **Operational Status:** `[status]`.
+### Product & Category Management
+1. **Product Operations:**
+   - Add, update, delete, and search for products.
+   - Filter products by **category** and **price**.
+   - Track stock levels in real-time.
 
-2. **Installed Software:**
-   - Display a list of installed software for each computer:
-     - **Software Name**, **Version**, **Category**.
-
-3. **Assigned Students:**
-   - List students using a computer with:
-     - **Student Name**, **Group**, **Number**.
+2. **Category Organization:**
+   - Create and manage product categories.
+   - Simplify inventory browsing and classification.
 
 ---
 
-### Report Management
-- Generate detailed reports on labs, computers, and software.
-- Save reports in **TXT** or **XLSX** formats or print them directly.
+### Sales & Invoice Handling
+1. **Cart System:**
+   - Add items to a cart, adjust quantities, and remove products.
+
+2. **Real-time Inventory Updates:**
+   - Automatically reflect product stock changes during transactions.
+
+3. **Invoice Generation:**
+   - Automatically create and print detailed invoices for each sale.
 
 ---
 
-## Dashboard Capabilities
-1. **CRUD Operations (Create, Read, Update, Delete):**
-   - Manage labs, computers, groups, students, and software with ease.
-
-2. **Automation:**
-   - Distribute groups among labs automatically.
-   - Assign students within groups to specific computers manually or automatically.
+### Reports & Analytics
+- Generate detailed **sales** and **revenue** reports.
+- Filter reports by **custom date ranges**.
+- View and print reports for business insights.
 
 ---
 
-## Primary Functionality
-The app automates lab and computer assignments:
-1. **Group Distribution:**
-   - Assign groups to labs intelligently based on capacity or criteria.
+### User Administration
+- Admins can add, edit, delete, and assign roles to users.
+- Role-based control ensures secure and structured access.
 
-2. **Student Assignment:**
-   - Assign students in each group to computers within their respective labs.
+---
+
+### Dashboard Overview
+- View:
+  - Total products and stock levels.
+  - Revenue summary.
+  - Sales statistics and performance indicators.
+
+---
+
+### Backup and Restore
+- Create data backups via the built-in **backup** tool.
+- Secure storage and easy recovery of system data.
+
+---
+
+### Localization & RTL Support
+- Right-to-left (RTL) UI tailored for Arabic users.
+- Fully localized text and layout for intuitive interaction.
+
+---
+
+## Screenshots
+
+### Login Screens
+- ![Login Screen 1](assets/login-1.png)
+- ![Login Screen 2](assets/login-2.png)
+- ![Login as Admin](assets/login-3.png)
+- ![Login as User](assets/login-4.png)
+
+---
+
+### Home Screen
+- ![Home Screen](assets/home-1.png)
+
+---
+
+### Sell Screens
+- ![Sell Screen 1](assets/sell-1.png)
+- ![Sell Screen 2](assets/sell-2.png)
+- ![Sell Screen 3](assets/sell-3.png)
+- ![Sell Screen 4](assets/sell-4.png)
+- ![Sell Screen 5](assets/sell-5.png)
+- ![Sell Screen 6](assets/sell-6.png)
+- ![Sell Screen 7](assets/sell-7.png)
+
+---
+
+### Category Screens
+- ![Category Screen 1](assets/category-1.png)
+- ![Category Screen 2](assets/category-2.png)
+- ![Category Screen 3](assets/category-3.png)
+- ![Category Screen 4](assets/category-4.png)
+
+---
+
+### Product Screens
+- ![Product Screen 1](assets/product-1.png)
+- ![Product Screen 2](assets/product-2.png)
+- ![Product Screen 3](assets/product-3.png)
+- ![Product Screen 4](assets/product-4.png)
+- ![Product Screen 5](assets/product-5.png)
+
+---
+
+### Reports Screens
+- ![Reports Screen 1](assets/report-1.png)
+- ![Reports Screen 2](assets/report-2.png)
+- ![Reports Screen 3](assets/report-3.png)
+
+---
+
+### Users Screen
+- ![Users Screen](assets/user-1.png)
+
+---
+
+### Backup
+- ![Backup Icon](Resources/Data-Database-Backup-icon.png)
+- ![Backup Screenshot](assets/backup-2.png)
+
+---
+
+## Used Technologies
+
+- **.NET 8.0** – Windows Forms
+- **C#** – Core logic and backend
+- **Entity Framework Core** – ORM for SQL Server/SQLite
+- **Microsoft.Data.Sqlite** – Lightweight embedded DB option
+
+---
+
+## Project Structure
+
+- `Entities/` – Data models (User, Product, Category, Order, etc.)
+- `Forms/` – UI forms (Login, Home, Sell, Products, Reports, etc.)
+- `Data/` – DbContext and EF Core logic
+- `Migrations/` – EF database migration files
+- `Resources/` – Icons, screenshots, and RTL support assets
 
 ---
 
 ## How to Use
-1. Use the dashboard to manage labs, computers, groups, students, and software.
-2. Analyze lab efficiency and generate reports.
-3. Automatically distribute groups and students across labs and computers.
+
+1. Log in as Admin/User based on credentials.
+2. Use the dashboard to navigate to products, sales, reports, or user admin.
+3. Add and manage products, categories, and users as needed.
+4. Perform sales and print invoices.
+5. Generate and export reports.
+6. Regularly back up data from the backup menu.
 
 ---
 
-## Output
-- View lab and computer details in-app.
-- Generate and save reports in **TXT** or **XLSX** formats.
-- Print reports directly for quick access.
-  
----
+## Setup Instructions
 
-## Used Technologies 
-- C#
-- SQL Server
-- WPF
-- ADO.NET
+### Prerequisites
+
+- Windows 10/11  
+- [.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)  
+- SQL Server (Default) or SQLite  
+
+### Steps
+
+```bash
+# 1. Clone the repository
+git clone <your-repo-url>
+
+# 2. Open in Visual Studio
+# 3. Set startup project and run
+# 4. Configure database connection string in appsettings.json if needed
+
 
 
 ## Here are  ScreenShoots Of The Project
