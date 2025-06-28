@@ -19,9 +19,10 @@ toc: true
 You can watch a screen recording of the app in action below:
 
 
-https://github.com/user-attachments/assets/e75bc66f-d6d3-415b-b037-7c4e924aa4b4
 
 
+<iframe width="100%" height="400" src="https://github.com/user-attachments/assets/e75bc66f-d6d3-415b-b037-7c4e924aa4b4" 
+frameborder="0" allowfullscreen></iframe>
 
 
 
