@@ -1,8 +1,8 @@
 ---
-title: Lab_Master - IT Lab Management System (Desktop Application)
+title: Library Management System (Desktop Application)
 classes: wide
 header:
-  teaser: https://github.com/user-attachments/assets/66bef4fa-e072-4fef-97b2-5476a6807155
+  teaser: https://github.com/user-attachments/assets/7d60a84a-20bd-494e-8a7a-ebcc4ac84183
 ribbon: MidnightBlue
 categories:
   - Desktop_Applications
