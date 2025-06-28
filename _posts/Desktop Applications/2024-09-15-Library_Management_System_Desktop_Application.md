@@ -86,61 +86,68 @@ toc: true
 ## Screenshots
 
 ### Login Screens
-- ![Login Screen 1](assets/login-1.png)
-- ![Login Screen 2](assets/login-2.png)
-- ![Login as Admin](assets/login-3.png)
-- ![Login as User](assets/login-4.png)
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/92ed48d1-ca65-4f98-987b-3a30703de004"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/437bb940-5852-4aae-bc05-7a3210e3f861"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/c8386c79-e96f-4dbc-add8-b9c991317758"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/088e85e8-63e4-4639-8248-d60b52265d34"> <br><br>
+
 
 ---
 
 ### Home Screen
-- ![Home Screen](assets/home-1.png)
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/316ef817-90f5-4670-b88f-7004f457921e"> <br><br>
+
 
 ---
 
 ### Sell Screens
-- ![Sell Screen 1](assets/sell-1.png)
-- ![Sell Screen 2](assets/sell-2.png)
-- ![Sell Screen 3](assets/sell-3.png)
-- ![Sell Screen 4](assets/sell-4.png)
-- ![Sell Screen 5](assets/sell-5.png)
-- ![Sell Screen 6](assets/sell-6.png)
-- ![Sell Screen 7](assets/sell-7.png)
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/91457c03-97bc-4054-876b-34f3a08f80b6"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/339d8bec-b83f-4d29-9297-613721d8d23a"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/58b9a45a-c861-4e9d-80b3-76c8278564d1"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/3a4ea44f-6600-43a7-b006-732100e8fbce"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/93c25573-2cbd-45ee-8a71-23418a35064f"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/3e14130d-9c87-4de4-a894-822d186742b6"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/6d99e042-a14b-4ea1-b7ee-16e43642970e"> <br><br>
+
+
+
 
 ---
 
 ### Category Screens
-- ![Category Screen 1](assets/category-1.png)
-- ![Category Screen 2](assets/category-2.png)
-- ![Category Screen 3](assets/category-3.png)
-- ![Category Screen 4](assets/category-4.png)
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/79577521-143b-40b9-87c4-fa1d1289a046"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/18fbf7ca-21aa-45c6-968d-9da13f8718ed"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/ef145fa8-1bf0-4e18-9d87-e0def6f63346"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/00151505-533f-40fc-b45c-0217f0b70f02"> <br><br>
+
+
+
+
 
 ---
 
 ### Product Screens
-- ![Product Screen 1](assets/product-1.png)
-- ![Product Screen 2](assets/product-2.png)
-- ![Product Screen 3](assets/product-3.png)
-- ![Product Screen 4](assets/product-4.png)
-- ![Product Screen 5](assets/product-5.png)
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/fbfe4804-15fb-4e26-8117-01822a714efe"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/eee8f9be-1adb-446a-a8cc-f0d0657ed305"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/91ef6ed9-fdb4-4513-8be2-bc590180cce7"> <br><br>
+
+
 
 ---
 
 ### Reports Screens
-- ![Reports Screen 1](assets/report-1.png)
-- ![Reports Screen 2](assets/report-2.png)
-- ![Reports Screen 3](assets/report-3.png)
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/41a5d201-ee30-4edf-8b4b-6bfcd72802b7"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/20835e10-20b8-4024-834f-6247ed9b5bf1"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/46158001-0c6d-4741-bc66-cab4d69082aa"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/46158001-0c6d-4741-bc66-cab4d69082aa"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/20835e10-20b8-4024-834f-6247ed9b5bf1"> <br><br>
 
----
 
-### Users Screen
-- ![Users Screen](assets/user-1.png)
 
 ---
 
 ### Backup
-- ![Backup Icon](Resources/Data-Database-Backup-icon.png)
-- ![Backup Screenshot](assets/backup-2.png)
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/19b517ce-cc46-40ab-ab4f-15c145ee2d48"> <br><br>
 
 ---
 
@@ -192,30 +199,3 @@ git clone <your-repo-url>
 # 3. Set startup project and run
 # 4. Configure database connection string in appsettings.json if needed
 
-
-
-## Here are  ScreenShoots Of The Project
-
-
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/865dd7a5-4f9d-4419-be48-ce07ac90ab72"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/f565fa05-52fe-4451-8001-23cb2cc4a5ec"> <br><be>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/978b2670-e6fb-4e37-8f32-81a765da3049"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/6d59bef9-4278-4918-b0a0-104ca4807d8d"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/7d5a004f-0f32-4d95-9b10-96b54e88141a"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/d9db5664-8633-4011-9727-17fc10b79205"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/5b9ee391-df3b-49cd-b973-87e88efd0ffa"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/32dc6ca4-7b7e-4fd3-ab16-b9b9294693f4"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/70430b1d-b070-42f3-919b-830f2ea4f29e"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/55a1ab3f-08f1-424e-a679-3b00f387f8cf"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/6799a687-2c5c-46d5-b645-fc45faca2874"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/a706483e-5f08-4570-b3aa-5f364a7c960a"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/854d982f-6391-44c5-bbcd-5fe81cce6540"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/e1f4238c-7db8-4757-8599-db81ac29515b"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/c408ef61-3cbf-4ab0-8cbc-d37d73c08cef"> <br><be>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/87c2998e-38c1-4145-acba-5d8935f895e6"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/a50042ce-f157-45be-bd37-28ce5f8dae9a"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/fe63b539-204c-4e26-a152-f5c187204f44"> <br><br>
-
-
-> # [Demonstration Video](https://youtu.be/o_8d6xQnCK8)
-> # [Check The Code Out](https://github.com/HusseinAdel7/Lab_Master)
