@@ -16,10 +16,8 @@ toc: true
 
 ## 🎬 Demo Video
 
-
-https://github.com/user-attachments/assets/e4679d21-fa63-4ff1-a6e7-0bf6cc648130
-
-
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/6sLaZ-kWUA8" 
+title="Markiti E-Commerce Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
