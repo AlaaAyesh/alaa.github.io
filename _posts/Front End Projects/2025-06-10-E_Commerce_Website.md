@@ -16,11 +16,9 @@ toc: true
 
 ## 🎬 Demo Video
 
-You can watch a screen recording of the app in action below:
-<video controls width="100%">
-  <source src="https://github.com/user-attachments/assets/e75bc66f-d6d3-415b-b037-7c4e924aa4b4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+https://github.com/user-attachments/assets/e4679d21-fa63-4ff1-a6e7-0bf6cc648130
+
 
 
 
