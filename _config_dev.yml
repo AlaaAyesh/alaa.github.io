@@ -1,0 +1,5 @@
+# Local preview only — merge after main config:
+#   bundle exec jekyll serve --config _config.yml,_config_dev.yml
+# Clears baseurl so /assets/... works at http://127.0.0.1:4000/ (GitHub Pages uses baseurl in _config.yml).
+baseurl: ""
+url: "http://127.0.0.1:4000"

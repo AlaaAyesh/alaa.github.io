@@ -25,6 +25,9 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Alaa Ayesh"
 description              : "Full Stack Developer                    Flutter Developer"
 # Project site: https://<user>.github.io/<repo>/ (repo is not <user>.github.io). User/org root pages: set baseurl to "".
+# Local `jekyll serve`: CSS breaks if baseurl points at /repo/ — run:
+#   bundle exec jekyll serve --config _config.yml,_config_dev.yml
+# (see _config_dev.yml)
 url                      : "https://alaaayesh.github.io"
 baseurl                  : "/alaa.github.io"
 repository               : "alaaayesh/alaa.github.io"
