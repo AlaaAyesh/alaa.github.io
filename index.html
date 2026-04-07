@@ -18,11 +18,26 @@ classes: wide
         <a class="pro-nav__link" href="#projects">Projects</a>
         <a class="pro-nav__link" href="#education">Education</a>
         <a class="pro-nav__link" href="#skills">Skills</a>
+        <a class="pro-nav__link" href="#contact">Contact</a>
       </nav>
 
-      <a class="pro-topcta" href="mailto:alaaamen686@gmail.com">
-        Let&rsquo;s Talk
-      </a>
+      {% assign hire_addr = "alaaamen686@gmail.com" %}
+      {% assign hire_email_link = site.author.links | where: "label", "Email" | first %}
+      {% if hire_email_link %}
+        {% assign _u = hire_email_link.url | strip %}
+        {% if _u contains "mailto:" %}
+          {% assign hire_addr = _u | remove: "mailto:" | split: "?" | first | split: "#" | first %}
+        {% else %}
+          {% assign hire_addr = _u | split: "?" | first | split: "#" | first %}
+        {% endif %}
+      {% elsif site.author.email != nil and site.author.email != "" %}
+        {% assign hire_addr = site.author.email | strip %}
+      {% endif %}
+      {% assign hire_sub = "Hiring inquiry — Portfolio (Alaa Ayesh)" | uri_escape %}
+      <a
+        class="pro-topcta"
+        href="mailto:{{ hire_addr }}?subject={{ hire_sub }}"
+      >Hire Me</a>
     </div>
 
     <div class="pro-hero__left">
@@ -55,7 +70,7 @@ classes: wide
       <span class="pro-scribble" aria-hidden="true">
         <i></i><i></i><i></i>
       </span>
-      <img src="{{ '/assets/images/site_data/alaa-portrait.png' | relative_url }}" alt="Alaa Ayesh portrait" class="pro-hero__image" loading="eager" />
+      <img src="{{ '/alaa.png' | relative_url }}" alt="Alaa Ayesh portrait" class="pro-hero__image" loading="eager" />
     </div>
   </div>
 
@@ -162,6 +177,38 @@ classes: wide
         <h3 class="pro-tile__title">Other</h3>
         <p class="pro-tile__meta">Git, GitHub, Data Structures, OptimaJet Workflow Engine.</p>
       </article>
+    </div>
+  </div>
+
+  <div class="pro-section pro-contact" id="contact">
+    <h2 class="reveal">Contact</h2>
+    <p class="pro-contact__lead reveal">
+      Open to full-stack roles, collaborations, and meaningful product work. Send a message and I&rsquo;ll get back as soon as I can.
+    </p>
+    <div class="pro-contact__layout">
+      <div class="pro-contact__primary">
+        <p class="pro-contact__note">
+          Reach out through any channel below &mdash; I&rsquo;ll reply as soon as I can.
+        </p>
+        {% if site.author.location %}
+          <p class="pro-contact__location">
+            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+            <span>{{ site.author.location }}</span>
+          </p>
+        {% endif %}
+      </div>
+      <ul class="pro-contact__channels" aria-label="Social and contact links">
+        {% for link in site.author.links %}
+          {% if link.label and link.url %}
+            <li>
+              <a class="pro-contact__chip" href="{{ link.url }}" rel="nofollow noopener noreferrer">
+                <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
+                <span class="pro-contact__chip-label">{{ link.label }}</span>
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </section>

@@ -104,7 +104,7 @@ analytics:
 # Site Author
 author:
   name             : "Alaa Ayesh"
-  avatar           : /assets/images/site_data/alaa-portrait.png
+  avatar           : /assets/images/site_data/alaa-author.png # sidebar / author profile (home hero uses /alaa.png in index.html)
   bio              : '<div class="pro-author-bio"><span class="pro-author-bio__line">Full Stack .NET Developer</span><span class="pro-author-bio__divider"><span class="pro-author-bio__and">And</span></span><span class="pro-author-bio__line">Flutter Developer</span></div>'
   location         : "Minya - Egypt"
   email            :
