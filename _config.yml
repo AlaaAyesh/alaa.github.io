@@ -24,9 +24,10 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Alaa Ayesh"
 description              : "Full Stack Developer                    Flutter Developer"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+# Project site: https://<user>.github.io/<repo>/ (repo is not <user>.github.io). User/org root pages: set baseurl to "".
+url                      : "https://alaaayesh.github.io"
+baseurl                  : "/alaa.github.io"
+repository               : "alaaayesh/alaa.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 #logo                     : /assets/images/site_data/logo.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
