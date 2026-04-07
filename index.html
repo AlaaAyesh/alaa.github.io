@@ -33,7 +33,7 @@ classes: wide
       {% elsif site.author.email != nil and site.author.email != "" %}
         {% assign hire_addr = site.author.email | strip %}
       {% endif %}
-      {% assign hire_sub = "Hiring inquiry — Portfolio (Alaa Ayesh)" | uri_escape %}
+      {% assign hire_sub = "Hiring inquiry — Portfolio (Alaa Ayesh)" | cgi_escape %}
       <a
         class="pro-topcta"
         href="mailto:{{ hire_addr }}?subject={{ hire_sub }}"

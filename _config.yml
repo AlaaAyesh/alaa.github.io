@@ -10,8 +10,10 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# Use the Minimal Mistakes theme (local gemspec in this repo).
-theme                    : "minimal-mistakes-jekyll"
+# GitHub Pages’ build image only includes the `github-pages` gem set; it does not ship
+# `minimal-mistakes-jekyll`. This repo already vendors layouts, includes, and `_sass/minimal-mistakes`,
+# so omit `theme` for Pages. For local dev with the gem, use: `theme: minimal-mistakes-jekyll`.
+# theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
