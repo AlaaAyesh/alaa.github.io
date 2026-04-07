@@ -1,11 +1,12 @@
 ---
-title: Library Management System (Desktop Application)
+title: Library Management System (Database Project)
 classes: wide
 header:
   teaser: https://github.com/user-attachments/assets/7d60a84a-20bd-494e-8a7a-ebcc4ac84183
 ribbon: MidnightBlue
 categories:
-  - Desktop_Applications
+  - Database_Projects
+permalink: /database-projects/library-management-system/
 toc: true
 ---
 

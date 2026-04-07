@@ -6,3 +6,6 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// Custom overrides for a more "Senior SWE" landing experience.
+@import "custom/pro";

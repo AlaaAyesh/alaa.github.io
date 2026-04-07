@@ -10,7 +10,8 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+# Use the Minimal Mistakes theme (local gemspec in this repo).
+theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -103,9 +104,9 @@ analytics:
 # Site Author
 author:
   name             : "Alaa Ayesh"
-  avatar           : /assets/images/site_data/d.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Full Stack .Net Developer<be><br>---------------  And  ----------------<be><br>Flutter Developer"
-  location         : " Minya - Egypt"
+  avatar           : /assets/images/site_data/alaa-portrait.png
+  bio              : '<div class="pro-author-bio"><span class="pro-author-bio__line">Full Stack .NET Developer</span><span class="pro-author-bio__divider"><span class="pro-author-bio__and">And</span></span><span class="pro-author-bio__line">Flutter Developer</span></div>'
+  location         : "Minya - Egypt"
   email            :
   links:
     - label: "LinkedIn"
@@ -224,6 +225,11 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+# Extra scripts loaded after the theme's JS.
+after_footer_scripts:
+  - /assets/js/pro-landing.js
+  - /assets/js/pro-back-to-top.js
+
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -284,4 +290,4 @@ defaults:
       share: false
       related: false
 
-theme: jekyll-theme-cayman
+# (Removed cayman theme - site uses Minimal Mistakes)

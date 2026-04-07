@@ -1,18 +1,19 @@
-# main links
+# main links (anchors must match Jekyll slugify IDs on /categories/)
 main:
-   
+   - title: "Home"
+     url: /
    - title: "Full Stack Projects"
-     url: /categories/#Full_Stack_Projects
+     url: /categories/#full-stack-projects
    - title: "Back End Projects"
-     url: /categories/#Back_End_Projects
+     url: /categories/#back-end-projects
    - title: "Front End Projects"
-     url: /categories/#Front_End_Projects
+     url: /categories/#front-end-projects
    - title: "Desktop Applications"
-     url: /categories/#Desktop_Applications
+     url: /categories/#desktop-applications
    - title: "Database Projects"
-     url: /categories/#Database_Projects
+     url: /categories/#database-projects
    - title: "Flutter Projects"
-     url: /categories/#Flutter_Projects
+     url: /categories/
 
   # - title: "Sample Posts"
   #   url: /year-archive/
