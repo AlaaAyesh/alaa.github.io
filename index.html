@@ -34,10 +34,17 @@ classes: wide
         {% assign hire_addr = site.author.email | strip %}
       {% endif %}
       {% assign hire_sub = "Hiring inquiry — Portfolio (Alaa Ayesh)" | cgi_escape %}
-      <a
-        class="pro-topcta"
-        href="mailto:{{ hire_addr }}?subject={{ hire_sub }}"
-      >Hire Me</a>
+      <div class="pro-topcta-group" aria-label="Quick actions">
+        <a
+          class="pro-topcta pro-topcta--secondary"
+          href="{{ '/assets/cv/Alaa_Ayesh_Full_Stack_Dot_Net.pdf' | relative_url }}"
+          download
+        >Download CV</a>
+        <a
+          class="pro-topcta"
+          href="mailto:{{ hire_addr }}?subject={{ hire_sub }}"
+        >Hire Me</a>
+      </div>
     </div>
 
     <div class="pro-hero__left">
