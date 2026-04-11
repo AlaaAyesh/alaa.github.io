@@ -1383,6 +1383,28 @@ body {
   grid-column: span 12;
 }
 
+/* Project list subsections inside #projects .pro-grid */
+.pro-projects-group {
+  grid-column: span 12;
+  margin: 0;
+  padding: 0;
+}
+
+.pro-projects-group__title {
+  margin: 1.35rem 0 0.4rem;
+  font-size: clamp(0.82rem, 1.05vw, 0.92rem);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(186, 205, 240, 0.88);
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid rgba(127, 162, 222, 0.22);
+}
+
+.pro-projects-group:first-child .pro-projects-group__title {
+  margin-top: 0;
+}
+
 @media (max-width: 900px) {
   .pro-col-6,
   .pro-col-4 {
@@ -1459,6 +1481,14 @@ body {
   margin: 0.15rem 0 0;
   color: var(--pro-muted);
   line-height: 1.65;
+}
+
+.pro-skills-footnote {
+  margin: 1.35rem 0 0;
+  color: var(--pro-muted);
+  font-size: 0.95rem;
+  line-height: 1.65;
+  max-width: 48rem;
 }
 
 .pro-tags {
@@ -1585,10 +1615,22 @@ body {
     padding-top: clamp(0.35rem, 1.2vw, 0.85rem);
   }
 
-  .archive,
-  .layout--single .page {
+  .archive {
     position: relative;
     overflow: hidden;
+    background:
+      radial-gradient(460px 220px at 100% 0, rgba(127, 162, 222, 0.09), transparent 66%),
+      linear-gradient(180deg, rgba(10, 14, 24, 0.9), rgba(9, 13, 22, 0.82));
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: clamp(18px, 2vw, 22px);
+    padding: clamp(1.35rem, 2.6vw, 2.15rem) clamp(1rem, 2.4vw, 1.85rem);
+    box-shadow: 0 16px 34px rgba(0, 0, 0, 0.26);
+  }
+
+  /* Single posts: visible overflow — hidden was clipping tall screenshots/videos */
+  .layout--single .page {
+    position: relative;
+    overflow: visible;
     background:
       radial-gradient(460px 220px at 100% 0, rgba(127, 162, 222, 0.09), transparent 66%),
       linear-gradient(180deg, rgba(10, 14, 24, 0.9), rgba(9, 13, 22, 0.82));
@@ -2191,6 +2233,27 @@ body {
       margin-top: 1.35rem;
       color: rgba(232, 240, 255, 0.95);
       font-weight: 700;
+    }
+
+    /* Project screenshots / demo video: compact max width on single posts */
+    img.align-center {
+      max-width: min(100%, 520px);
+      width: auto;
+      height: auto;
+      object-fit: contain;
+    }
+
+    video {
+      max-width: min(100%, 520px);
+      height: auto;
+      aspect-ratio: 16 / 9;
+      min-height: 200px;
+      object-fit: contain;
+    }
+
+    /* Native <video> inside posts (not iframe) — keep a visible frame when decode fails */
+    video.pro-embed-video {
+      display: block;
     }
   }
 

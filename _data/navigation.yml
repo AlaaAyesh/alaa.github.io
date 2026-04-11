@@ -13,7 +13,7 @@ main:
    - title: "Database Projects"
      url: /categories/#database-projects
    - title: "Flutter Projects"
-     url: /categories/
+     url: /categories/#flutter-projects
 
   # - title: "Sample Posts"
   #   url: /year-archive/

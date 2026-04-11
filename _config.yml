@@ -23,7 +23,7 @@ locale                   : "en-US"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Alaa Ayesh"
-description              : "Full Stack Developer                    Flutter Developer"
+description              : "Full Stack .NET Developer — ASP.NET Core, Web API, EF Core, SQL Server"
 # Project site: https://<user>.github.io/<repo>/ (repo is not <user>.github.io). User/org root pages: set baseurl to "".
 # Local `jekyll serve`: CSS breaks if baseurl points at /repo/ — run:
 #   bundle exec jekyll serve --config _config.yml,_config_dev.yml
@@ -111,8 +111,8 @@ analytics:
 author:
   name             : "Alaa Ayesh"
   avatar           : /assets/images/site_data/alaa-author.png # sidebar / author profile (home hero uses /alaa.png in index.html)
-  bio              : '<div class="pro-author-bio"><span class="pro-author-bio__line">Full Stack .NET Developer</span><span class="pro-author-bio__divider"><span class="pro-author-bio__and">And</span></span><span class="pro-author-bio__line">Flutter Developer</span></div>'
-  location         : "Minya - Egypt"
+  bio              : '<div class="pro-author-bio"><span class="pro-author-bio__line">Full Stack .NET Developer</span></div>'
+  location         : "Cairo, Egypt"
   email            :
   links:
     - label: "LinkedIn"
